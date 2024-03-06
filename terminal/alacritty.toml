@@ -1,0 +1,11 @@
+[font]
+size = 15
+
+[[keyboard.bindings]]
+chars = "\u0017"
+key = "Backspace"
+mods = "Control"
+
+[window]
+dynamic_title = false
+title = "Secondary Terminal"

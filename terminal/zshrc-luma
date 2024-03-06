@@ -1,0 +1,10 @@
+alias localhost='npm run start'
+alias plt='npm run start:plt'
+alias rpc='npm run start:rpc'
+alias rasa='npm run start:rasa'
+alias stage='npm run start:stage'
+alias prod='npm run start:production'
+
+listEnvs() {
+  echo "localhost, plt, rpc, rasa, stage, prod"
+} 

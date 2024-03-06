@@ -1,0 +1,21 @@
+# Use powerline
+USE_POWERLINE="true"
+# Source manjaro-zsh-configuration
+if [[ -e ~/dotfiles/linux/manjaro-zsh-config ]]; then
+  source ~/dotfiles/linux/manjaro-zsh-config
+fi
+# Use manjaro zsh prompt
+if [[ -e ~/dotfiles/linux/manjaro-zsh-prompt ]]; then
+  source ~/dotfiles/linux/manjaro-zsh-prompt
+fi
+
+source ~/dotfiles/terminal/zshrc
+
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Make Manjaro Gnome terminal open tab on same folder
+source ~/dotfiles/linux/vte.sh
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+export PATH="$HOME/emsdk:$PATH"
+export PATH="$HOME/emsdk/upstream/emscripten:$PATH"

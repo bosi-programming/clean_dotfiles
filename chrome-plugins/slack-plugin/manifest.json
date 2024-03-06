@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Slack cleaner",
+  "version": "1.0",
+  "description": "Clean the web version of slack from its annoying elements",
+  "icons": {
+    "16": "images/no-message.ico",
+    "32": "images/no-message.ico",
+    "48": "images/no-message.ico",
+    "128": "images/no-message.ico"
+  },
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "matches": [
+        "https://app.slack.com/*"
+      ]
+    }
+  ]
+}

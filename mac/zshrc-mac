@@ -1,0 +1,4 @@
+# Use powerline
+USE_POWERLINE="true"
+
+source ~/dotfiles/terminal/zshrc

@@ -1,0 +1,321 @@
+[
+  {
+    "title": "Hobbies",
+    "subColumns": [
+      {
+        "title": "Home server",
+        "sites": [
+          {
+            "url": "http://localhost:8096/web/index.html#!/home.html",
+            "name": "Jeallyfin"
+          },
+          {
+            "url": "http://127.0.0.1:8384/",
+            "name": "Syncthing"
+          }
+        ]
+      },
+      {
+        "title": "Chás",
+        "sites": [
+          {
+            "url": "https://teaware.house/",
+            "name": "Teaware.house"
+          },
+          {
+            "url": "http://loja.santobule.com.br/",
+            "name": "Santo Bule"
+          },
+          {
+            "url": "https://www.teavivre.com/",
+            "name": "TeaVivre"
+          },
+          {
+            "url": "https://white2tea.com/",
+            "name": "White2tea"
+          },
+          {
+            "url": "https://yunomi.life/",
+            "name": "Yunomi"
+          },
+          {
+            "url": "http://yuuki-cha.com/",
+            "name": "Yuuki-cha"
+          },
+          {
+            "url": "https://shop.ippodo-tea.co.jp/kyoto/shopf/",
+            "name": "Ippodo"
+          },
+          {
+            "url": "https://www.tezumi.com/",
+            "name": "Tezumi"
+          },
+          {
+            "url": "https://www.tenmanya.com.br/mesa/cha",
+            "name": "Tenman Ya"
+          },
+          {
+            "url": "https://www.asiashop.com.br/categoria/chas-21079654",
+            "name": "Asia Shop"
+          }
+        ]
+      },
+      {
+        "title": "Jogos",
+        "sites": [
+          {
+            "url": "https://vndb.org/",
+            "name": "Visual Novel Database"
+          }
+        ]
+      },
+      {
+        "title": "Música",
+        "sites": [
+          {
+            "url": "https://us.7digital.com/",
+            "name": "7digital"
+          },
+          {
+            "url": "https://bandcamp.com/",
+            "name": "Bandcamp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Estudos",
+    "sites": [],
+    "subColumns": [
+      {
+        "title": "Cursos",
+        "sites": [
+          {
+            "url": "https://tryhackme.com/",
+            "name": "Try Hack Me"
+          },
+          {
+            "url": "https://www.udemy.com/",
+            "name": "Udemy"
+          },
+          {
+            "url": "https://subscription.packtpub.com/",
+            "name": "Packtpub"
+          },
+          {
+            "url": "https://threejs-journey.com/lessons#",
+            "name": "Three JS course"
+          },
+          {
+            "url": "https://frontendmasters.com/learn/fullstack/",
+            "name": "Frontend Masters"
+          },
+          {
+            "url": "https://www.frontendmentor.io/",
+            "name": "Frontend mentor"
+          }
+        ]
+      },
+      {
+        "title": "Katas",
+        "sites": [
+          {
+            "url": "https://ankiweb.net/decks",
+            "name": "Anki"
+          },
+          {
+            "url": "https://monkeytype.com/",
+            "name": "MonkeyType"
+          },
+          {
+            "url": "https://zty.pe/",
+            "name": "Ztype"
+          },
+          {
+            "url": "https://www.codewars.com/dashboard",
+            "name": "Code Wars"
+          },
+          {
+            "url": "https://www.hackerrank.com/dashboard",
+            "name": "HackerRank"
+          },
+          {
+            "url": "https://leetcode.com/",
+            "name": "Leetcode"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Biblio",
+    "sites": [],
+    "subColumns": [
+      {
+        "title": "Notícias",
+        "sites": [
+          {
+            "url": "https://www.folhavitoria.com.br/",
+            "name": "Folha Vitória"
+          },
+          {
+            "url": "https://feedly.com",
+            "name": "Feedly"
+          },
+          {
+            "url": "https://www.securitymagazine.com/",
+            "name": "Security Magazine"
+          }
+        ]
+      },
+      {
+        "title": "Filosofia",
+        "sites": [
+          {
+            "url": "https://www.scielo.br/j/man/i/2022.v45n3/",
+            "name": "Manuscrito"
+          },
+          {
+            "url": "https://revistas.unisinos.br/index.php/filosofia/index",
+            "name": "Filosofia Unisinos"
+          },
+          {
+            "url": "https://onlinelibrary.wiley.com/journal/14679973",
+            "name": "Metaphilosophy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Trabalho",
+    "sites": [
+      {
+        "url": "https://app.contabilizei.com.br/painel-de-controle/#/home",
+        "name": "Contabilizei"
+      },
+      {
+        "url": "https://felipebosiltda.harvestapp.com/time",
+        "name": "Harvest"
+      },
+      {
+        "url": "https://nfse.vitoria.es.gov.br/",
+        "name": "Nota Vitória"
+      }
+    ],
+    "subColumns": [
+      {
+        "title": "Clutch Basics",
+        "sites": [
+          {
+            "url": "https://app.deel.com/",
+            "name": "Receive - Deel"
+          },
+          {
+            "url": "https://www.notion.so/withclutch",
+            "name": "Clutch notion"
+          },
+          {
+            "url": "https://withclutch.okta.com/app/UserHome",
+            "name": "Okta - Clutch Apps"
+          },
+          {
+            "url": "https://withclutch.latticehq.com/",
+            "name": "Lattice HR app"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Resources",
+    "sites": [
+      {
+        "url": "https://www.patterns.dev/",
+        "name": "Patterns"
+      },
+      {
+        "url": "https://www.overleaf.com/project",
+        "name": "Overleaf Latex"
+      }
+    ],
+    "subColumns": [
+      {
+        "title": "Projetos",
+        "sites": [
+          {
+            "url": "https://hpanel.hostinger.com/hosting/felipebosi.com/wordpress/dashboard",
+            "name": "Personal sites"
+          },
+          {
+            "url": "https://felipebosi.com/wp-admin/",
+            "name": "Bosi Programming"
+          },
+          {
+            "url": "https://reviews.felipebosi.com/wp-admin/",
+            "name": "Bosi Reviews"
+          }
+        ]
+      },
+      {
+        "title": "Pirata",
+        "sites": [
+          {
+            "url": "https://r-roms.github.io/",
+            "name": "Roms"
+          },
+          {
+            "url": "http://libgen.is/",
+            "name": "Library Genesis"
+          },
+          {
+            "url": "https://subsplease.org/",
+            "name": "Anime"
+          },
+          {
+            "url": "https://www.nyaa.si/",
+            "name": "Mangá torrent"
+          },
+          {
+            "url": "https://hshop.erista.me/",
+            "name": "3ds"
+          },
+          {
+            "url": "https://getcomics.org",
+            "name": "HQ"
+          },
+          {
+            "url": "https://www.1377x.to/",
+            "name": "1377x Torrent"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "sites": [
+          {
+            "url": "https://languagetool.org/pt-BR",
+            "name": "Language Tool"
+          },
+          {
+            "url": "https://snapdrop.net/",
+            "name": "Snapdrop - Ipad File transfer"
+          },
+          {
+            "url": "https://codeberg.org/",
+            "name": "Codeberg - Git"
+          },
+          {
+            "url": "https://jsoncrack.com/editor",
+            "name": "JSON Crack - View JSON"
+          },
+          {
+            "url": "https://www.mockaroo.com/",
+            "name": "Mocarook mock BE"
+          }
+        ]
+      }
+    ]
+  }
+]

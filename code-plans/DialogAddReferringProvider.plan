@@ -1,0 +1,62 @@
+@startuml
+
+class DialogAddReferringProviderContext {
+  --State--
+  useFormContext<TFormReferral> formContext
+  Boolean expand
+  Boolean canSubmit
+
+  --Methods--
+  void saveProvider()
+  void setExpand(expand: Boolean)
+  void setCanSubmit(canSubmit: Boolean)
+}
+
+class Dialog {
+  --Props--
+  Boolen open
+}
+
+class DialogTitle {
+}
+
+class DialogContent {
+  --Context state--
+  Boolean expand
+}
+
+class DialogActions {
+  --Context state--
+  Boolean canSubmit
+}
+
+class ProviderDataSection {
+  --Props--
+  String address
+  Number NPI
+}
+
+class ContactInfoSection {
+  --Props--
+  String fax
+  String phone
+  String email
+}
+
+class FaxOptionsSection {
+  --Props--
+  Boolean hasProviderFax
+  Boolean settingEnabled
+}
+
+DialogAddReferringProviderContext *-- Dialog
+
+Dialog *-- DialogTitle
+Dialog *-- DialogContent
+Dialog *-- DialogActions
+
+DialogContent *-- ProviderDataSection
+DialogContent *-- ContactInfoSection
+DialogContent *-- FaxOptionsSection
+
+@enduml

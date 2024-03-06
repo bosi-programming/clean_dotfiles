@@ -1,0 +1,38 @@
+alias work='cd ~/work'
+
+alias notas='cd ~/Notes'
+alias study='cd ~/study'
+alias personal='cd ~/personal-projects'
+alias front='cd ~/study/frontend'
+alias back='cd ~/study/backend'
+alias games='cd ~/study/gameDev'
+alias python='cd ~/study/python'
+
+alias downloads='cd ~/Downloads && x'
+alias dotfiles='cd ~/dotfiles && x'
+
+startFront() {
+  cd ~/work/web-app
+  wait
+  gpp
+  run
+}
+
+alias ..='cd .. && clear && ls'
+alias ...='cd ../.. && clear && ls'
+alias ....='cd ../../.. && clear && ls'
+
+ccd() {
+    mkdir -p -- "${1:?No target specified}" &&
+    cd -- "$1"
+    clear
+}
+
+cdls() {
+  cd "$1"
+  clear
+  ls
+}
+
+alias cd='cdls'
+

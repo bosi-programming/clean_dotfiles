@@ -1,0 +1,18 @@
+source ~/dotfiles/vim/plugins/plug.vim
+source ~/dotfiles/vim/basics.vim
+source ~/dotfiles/vim/theme.vim
+source ~/dotfiles/vim/plugins/coc.vim
+source ~/dotfiles/vim/plugins/fzf.vim
+source ~/dotfiles/vim/plugins/markdown.vim
+source ~/dotfiles/vim/plugins/fugitive.vim
+source ~/dotfiles/vim/plugins/limelight.vim
+source ~/dotfiles/vim/plugins/vim-ditto.vim
+
+source ~/dotfiles/vim/remaps.vim
+source ~/dotfiles/vim/global_remaps.vim
+
+source ~/dotfiles/vim/functions.vim
+source ~/dotfiles/vim/scripts/react.vim
+source ~/dotfiles/vim/scripts/java.vim
+source ~/dotfiles/vim/scripts/markdownGf.vim
+source ~/dotfiles/vim/scripts/vim.vim

@@ -1,0 +1,20 @@
+{
+  "keyMappings": "map <c-d> scrollPageDown\nmap <c-u> scrollPageUp\nmap d removeTab\nmap u restoreTab\nunmap t\nmap <c-h> previousTab\nmap <c-l> nextTab",
+  "grabBackFocus": true,
+  "searchUrl": "https://duckduckgo.com/?q=",
+  "settingsVersion": "2.0.6",
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https://startpage.felipebosi.com/"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https://zty.pe/"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https://monkeytype.com/"
+    }
+  ]
+}

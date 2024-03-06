@@ -1,0 +1,12 @@
+======== Estudos ========
+
+======== Segurança ========
+
+Web Security Academy - https://portswigger.net/web-security/learning-paths
+What happens when you type google.com into your browser and press enter? - https://github.com/alex/what-happens-when
+Nodejs Security - OWASP Cheat Sheet Series - https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html
+OWASP Top 10 Node - https://github.com/OWASP/NodeGoat
+
+======== Outros ========
+
+Write an interpreter in go - https://interpreterbook.com/

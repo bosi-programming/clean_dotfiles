@@ -1,0 +1,24 @@
+====== Auto-pós ======
+
+Clean Architecture e solid no FE - https://epicreact.dev/learn
+DDD e arquitetura limpa - https://www.udemy.com/course/nodejs-avancado-com-clean-architecture-nestjs-typescript/
+Arquitetura limpa no FE - https://khalilstemmler.com/articles/client-side-architecture/introduction/
+Arquitetura limpa no FE - https://betterprogramming.pub/domain-driven-architecture-in-the-frontend-i-d27fb71b5cb0
+Arquitetura limpa no FE - https://www.udemy.com/course/microfrontend-course/
+Devops - https://www.udemy.com/course/devops-mao-na-massa/
+Dados MongoDB - https://learn.mongodb.com/learning-paths/mongodb-nodejs-developer-path
+Dados RabbitMQ - https://www.udemy.com/course/rabbitmq-na-pratica/
+Dados Node com cache - https://www.udemy.com/course/nodejs-criando-uma-api-com-docker-e-cache/
+Engenharia de software básica: Introdução e parte 1 do livro Engenharia de software. Pressman
+Engenharia de requisitos - https://www.udemy.com/course/analise-de-requisitos-de-software/
+UML - https://www.udemy.com/course/diagramas-uml-analise-e-projeto-de-sistemas/
+Design de software - Parte 2 do livro Engenharia de software. Pressman
+DDD - Livro Domain-Driven Design e livro Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software
+PMBOK e qualidade - https://www.udemy.com/course/gestao-qualidade-projetos/
+Arquitetura da informação - Parte 1 do livro Information Architecture: For the Web and Beyond
+
+====== Complementos a pós ======
+
+A Philosophy of Software Design
+Fundamentals of Data Engineering
+99 Bottles of OOP

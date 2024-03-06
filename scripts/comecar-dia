@@ -1,0 +1,21 @@
+#!/bin/bash
+
+textoVermelho="\033[38;5;196m"
+textoAzul="\033[38;5;123m"
+textoVerde="\033[38;5;70m"
+textoVinho="\033[38;5;204m"
+pularLinha="\n"
+resetarCor="\033[0m"
+
+clear
+echo -e $textoVerde"O planejamento para o dia é:"$pularLinha$resetarCor
+dia
+
+diaDaSemana=$(date +%A)
+
+echo -e $pularLinha$textoVinho"Animes que estou vendo com episódios hoje:"$pularLinha$resetarCor
+cat ~/dotfiles/listas/anime.txt | grep $diaDaSemana
+cat ~/dotfiles/listas/anime.txt | grep 'completo'
+
+echo -e $pularLinha$textoVerde"Jogos que estou jogando:"$resetarCor
+cat ~/dotfiles/listas/jogos.txt | sed -e '/Jogos/d'| sed -e '/Next/,$d'

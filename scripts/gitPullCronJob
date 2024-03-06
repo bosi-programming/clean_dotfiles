@@ -1,0 +1,19 @@
+#!/bin/bash
+
+function gitPull() {
+  cd $1
+  currentBranch=$(git branch --show-current)
+  if [ "$currentBranch" != "main" ]; then
+    git checkout main
+  fi
+  git pull
+  if [ "$currentBranch" != "main" ]; then
+    git checkout $currentBranch
+  fi
+}
+
+for dir in ~/development/cluth/*; do
+  if [ -d "$dir" ]; then
+    gitPull $dir
+  fi
+done

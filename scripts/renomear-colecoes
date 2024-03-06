@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import os
+import re
+
+def main():
+    for filename in os.listdir("."):
+        old_name = filename
+        volume_number = re.findall(r"\d+", filename)[0]
+        name_without_volume = re.split(r"v\d+", old_name)[0]
+        file_extension = re.findall(r"\.\w+", filename)[0]
+        print(f'Vol. {volume_number}{file_extension}')
+        os.rename(old_name, f'Vol. {volume_number}{file_extension}')
+
+if __name__ == "__main__":
+    main()

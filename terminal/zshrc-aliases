@@ -1,0 +1,31 @@
+alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+alias parrot='curl parrot.live'
+
+alias serve="browser-sync start -s -f . --no-notify --port 9000" # Creates a refresh server
+
+# Force cp command without ask to confirm
+alias cp='cp -rf'
+
+alias ls='eza --icons'
+
+alias rmall='yes | rm -r'
+
+substitute () {
+  ag -l "$1" | xargs perl -pi -E "s/${1}/${2}/g"
+}
+
+alias subs="substitute"
+
+alias pdf='evince'
+alias x='clear && ls'
+
+alias pac='sudo pacman -Syu'
+alias :q="exit"
+
+alias startBank='systemctl start warsaw'
+alias stopBank='systemctl stop warsaw'
+
+alias v=vim
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+
+source ~/dotfiles/terminal/zshrc-folder-aliases

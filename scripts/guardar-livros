@@ -1,0 +1,53 @@
+#!/bin/bash
+
+function saveFile() {
+    local file=$1
+    local filename=$(basename "$file")
+    echo "Movendo $filename"
+    IFS='='; nameArray=($filename); unset IFS;
+    local folderName=${nameArray[0]}
+    folderName=$(echo "$folderName" | sed 's/ *$//')
+    local fileName=${nameArray[1]}
+    fileName=$(echo "$fileName" | sed 's/ //')
+
+    if [ -z "$fileName" ]; then
+      echo "Não foi possível identificar o nome do arquivo use = para separar o nome do arquivo do nome da pasta"
+      return
+    fi
+
+    local extension="${filename##*.}"
+    local filename="${filename%.*}"
+    local path
+
+    if [ "$extension" == "pdf" ]; then
+        path=~/Documents/Meus\ dados/Livros/PDF
+    elif [ "$extension" == "cbz" ]; then
+        path=~/Documents/Meus\ dados/Livros/CBZ
+    elif [ "$extension" == "cbr" ]; then
+        path=~/Documents/Meus\ dados/Livros/CBZ
+    else
+        path=~/Documents/Meus\ dados/Livros/Ebook
+    fi
+
+    path="$path/$folderName"
+
+    if [ ! -d "$path" ]; then
+        mkdir "$path"
+    fi
+
+    echo "$fileName movido para $path"
+    path="$path/$fileName"
+
+    if [ -f "$path" ]; then
+      echo "$fileName já existe em $path"
+      return
+    fi
+
+    mv "$file" "$path"
+}
+
+for file in ~/Downloads/Livros/*; do
+    if [ -f "$file" ]; then
+        saveFile "$file"
+    fi
+done

@@ -1,0 +1,23 @@
+export EDITOR='vim'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="$HOME/dotfiles/scripts:$PATH"
+source ~/dotfiles/terminal/zshrc-aliases
+source ~/dotfiles/terminal/zshrc-git
+source ~/dotfiles/terminal/lists-aliases.sh
+source ~/dotfiles/terminal/zshrc-luma
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/development/flutter/bin:$PATH"
+
+# Add Bun Path
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Make vim fzf ignore what is on gitignore
+export FZF_DEFAULT_COMMAND='rg --files --follow --no-ignore-vcs --hidden -g "!{node_modules/*,.git/*}"'

@@ -1,0 +1,44 @@
+#!/usr/bin/env node
+
+const sabado = {
+  7: 'Acordar e tomar café',
+  8: 'RPG',
+  14: 'Projeto pessoal',
+  18: 'Dia Livre'
+}
+
+const domingo = {
+  7: 'Acordar e tomar café',
+  8: 'Compras',
+  14: 'Projeto pessoal',
+  18: 'Dia Livre'
+}
+
+const diaDeSemana = {
+  7: 'Acordar e tomar café',
+  8: 'Fazer exercícios',
+  9: 'Estudar',
+  10: 'Trabalhar',
+  12: 'Almoçar',
+  14: 'Trabalhar',
+  19: 'Livre',
+}
+
+const diaPar = {
+  ...diaDeSemana,
+}
+
+const semana = {
+  sábado: sabado,
+  domingo: domingo,
+  segunda: diaDeSemana,
+  terça: diaPar,
+  quarta: diaDeSemana,
+  quinta: diaPar,
+  sexta: diaDeSemana,
+}
+
+const data = new Date()
+const dia = new Intl.DateTimeFormat('pt-BR', { weekday: 'long' }).format(data).toLowerCase().split('-')[0]
+
+console.table(semana[dia])
